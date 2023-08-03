@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(46, 46, 46);
+  color: aliceblue;
+}
+
+.header {
+  font-family: Arial;
+  font-size: 28px;
+  border: 2px solid rgb(255, 225, 0);
+  display: flex;
+}
+
+.logo {
+  width: 288px;
+  height: 350px;
+}
+.step {
+  font-size: 50px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(255, 255, 0);
+}
+
+.links {
+  font-family: Arial;
+  font-size: 20px;
+  border: 2px solid rgb(255, 225, 0);
+  text-align: center;
+  padding: 1px;
+}
+.tg {
+  width: 240px;
+  height: 430px;
+}
+
+.postlist {
+  font-family: Arial;
+  font-size: 21px;
+  border: 1px solid rgb(255, 225, 0);
+  text-align: center;
+  min-width: 1200px;
+}
+
+.post {
+  font-family: Arial;
+  font-size: 21px;
+  border: 1px solid rgb(255, 225, 0);
+  text-align: center;
+  margin: 1px;
+  min-width: 1200px;
+}
+
+.posttwo {
+  font-family: Arial;
+  font-size: 21px;
+  border: 1px solid rgb(255, 225, 0);
+  text-align: center;
+  margin: 1px;
+  min-width: 1200px;
+}
+
+.post:hover {
+  box-shadow: 1px 1px #ff0000, 2px 2px #ff0000, 3px 3px #ff0000, 4px 4px #ff0000,
+    5px 5px #ff0000, 6px 6px #ff0000, 7px 7px #ff0000;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+}
